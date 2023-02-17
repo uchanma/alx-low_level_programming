@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main -A program that prints the size of a varios types of computers
- * return: 0
+ * main - entry point
+ * Description: A program that prints the size of a varios types of computers
+ * Return: returns 0
  */
 int main(void)
 {
