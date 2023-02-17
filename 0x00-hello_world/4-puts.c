@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main - A c programming that prints a line of codes
+ * main - entry point
+ * description: A programme that prints a line with puts function
  * return: 0
  */
 int main(void)
 {
-	puts('\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
