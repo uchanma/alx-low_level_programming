@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main -A program that prints a line using the print function
- * return: 0
+ * main -entry point
+ * Description: A program that prints a line using the print function
+ * Return: returns 0
  */
 
 int main(void)
