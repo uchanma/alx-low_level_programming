@@ -1,28 +1,32 @@
 #include <stdio.h>
 /**
- * main - Write a program that prints three digit combinations.
- *
+ * main - prints all possible different combinations of three digits
  * Return: returns 0
  */
 
 int main(void)
 {
-for (int i = 0; i < 8; i++)
+int n, m, l;
+for (n = 48; n < 58; n++)
 {
-for (int j = i + 1; j < 9; j++)
+for (m = 49; m < 58; m++)
 {
-for (int k = j + 1; k <= 9; k++)
+for (l = 50; l < 58; l++)
 {
-putchar (i + '0');
-putchar (j + '0');
-putchar (k + '0');
-if (i != 7 || j != 8 || k != 9)
+if (l > m && m > n)
 {
-putchar (',');
-putchar (' ');
+putchar(n);
+putchar(m);
+putchar(l);
+if (n != 55 || m != 56)
+{
+putchar(',');
+putchar(' ');
 }
 }
 }
 }
+}
+putchar('\n');
 return (0);
 }
