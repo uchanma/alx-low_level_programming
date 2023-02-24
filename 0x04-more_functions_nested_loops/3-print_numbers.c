@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*print_numbers - print 0123456789
-* owned by uchanma
-*Return: void
+* print_numbers - print num 0-9
+*
+* Return: void
 */
 
 void print_numbers(void)
