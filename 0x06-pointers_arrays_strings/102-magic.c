@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-/* description: Add one line to this code
+/*
+ * description: Add one line to this code
  * so that the program prints a[2] = 98,
  * followed by a new line.
  * Return: returns 0
  */
 
 int main(void)
+
 {
 int n;
 int a[5];
